@@ -16,9 +16,9 @@ export function StatCard({
   valueClassName,
 }: StatCardProps) {
   return (
-    <div className={cn("bg-white rounded-lg shadow-sm p-6", className)}>
-      <div className="text-sm text-gray-600 mb-1">{label}</div>
-      <div className={cn("text-3xl font-bold text-gray-900", valueClassName)}>
+    <div className={cn("bg-gray-800 rounded-lg shadow-sm p-6", className)}>
+      <div className="text-sm text-gray-400 mb-1">{label}</div>
+      <div className={cn("text-3xl font-bold text-gray-100", valueClassName)}>
         {value}
       </div>
     </div>

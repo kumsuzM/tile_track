@@ -8,7 +8,7 @@ type CardProps = HTMLAttributes<HTMLDivElement>;
 export function Card({ className, children, ...props }: CardProps) {
   return (
     <div
-      className={cn("bg-white rounded-lg shadow-sm", className)}
+      className={cn("bg-gray-800 rounded-lg shadow-sm", className)}
       {...props}
     >
       {children}
@@ -18,7 +18,7 @@ export function Card({ className, children, ...props }: CardProps) {
 
 export function CardHeader({ className, children, ...props }: CardProps) {
   return (
-    <div className={cn("p-4 border-b border-gray-200", className)} {...props}>
+    <div className={cn("p-4 border-b border-gray-700", className)} {...props}>
       {children}
     </div>
   );

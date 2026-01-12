@@ -2,6 +2,7 @@
   "common": {
     "appName": "TileTrack",
     "loading": "Loading...",
+    "error": "An error occurred",
     "save": "Save",
     "cancel": "Cancel",
     "delete": "Delete",
@@ -42,6 +43,8 @@
     "actualDelivery": "Actual Delivery",
     "fob": "FOB (Shipping Fee)",
     "notDelivered": "Not yet delivered",
+    "notFound": "Invoice not found",
+    "noNotes": "No notes",
     "information": "Invoice Information",
     "ordersProducts": "Orders & Products",
     "notes": "Notes",
@@ -49,7 +52,9 @@
   },
   "order": {
     "title": "Order",
-    "addProduct": "Add Product"
+    "addProduct": "Add Product",
+    "noOrders": "No orders yet. Click \"Add Order\" to create one.",
+    "noProducts": "No products in this order"
   },
   "product": {
     "title": "Product",
@@ -107,6 +112,7 @@
     "removeProduct": "Are you sure you want to remove this product?"
   },
   "validation": {
-    "fillAllFields": "Please fill in all fields"
+    "fillAllFields": "Please fill in all fields",
+    "selectProduct": "Please select a product"
   }
 }

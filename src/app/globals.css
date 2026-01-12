@@ -3,11 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 249, 250, 251;
+  --foreground-rgb: 243, 244, 246;
+  --background-rgb: 17, 24, 39;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
+}
+
+/* Dark theme form inputs */
+input, select, textarea {
+  background-color: rgb(31, 41, 55);
+  border-color: rgb(55, 65, 81);
+  color: rgb(243, 244, 246);
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgb(156, 163, 175);
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: rgb(59, 130, 246);
+  outline: none;
+  ring: 2px;
+  ring-color: rgb(59, 130, 246);
 }

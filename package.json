@@ -13,6 +13,7 @@
     "db:seed": "npx tsx src/db/seed.ts"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.90.16",
     "@types/pg": "^8.16.0",
     "@vercel/postgres": "^0.10.0",
     "clsx": "^2.1.1",

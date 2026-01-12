@@ -2,6 +2,7 @@
   "common": {
     "appName": "TileTrack",
     "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
     "save": "Kaydet",
     "cancel": "İptal",
     "delete": "Sil",
@@ -42,6 +43,8 @@
     "actualDelivery": "Gerçek Teslimat",
     "fob": "FOB (Navlun)",
     "notDelivered": "Henüz teslim edilmedi",
+    "notFound": "Fatura bulunamadı",
+    "noNotes": "Not yok",
     "information": "Fatura Bilgileri",
     "ordersProducts": "Siparişler ve Ürünler",
     "notes": "Notlar",
@@ -49,7 +52,9 @@
   },
   "order": {
     "title": "Sipariş",
-    "addProduct": "Ürün Ekle"
+    "addProduct": "Ürün Ekle",
+    "noOrders": "Henüz sipariş yok. Sipariş oluşturmak için \"Sipariş Ekle\"ye tıklayın.",
+    "noProducts": "Bu siparişte ürün yok"
   },
   "product": {
     "title": "Ürün",
@@ -107,6 +112,7 @@
     "removeProduct": "Bu ürünü kaldırmak istediğinizden emin misiniz?"
   },
   "validation": {
-    "fillAllFields": "Lütfen tüm alanları doldurun"
+    "fillAllFields": "Lütfen tüm alanları doldurun",
+    "selectProduct": "Lütfen bir ürün seçin"
   }
 }

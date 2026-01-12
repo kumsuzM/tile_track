@@ -29,7 +29,10 @@ export async function GET() {
               buyPricePerUnit: products.buyPricePerUnit,
             })
             .from(orderProducts)
-            .innerJoin(products, eq(orderProducts.productId, products.productId))
+            .innerJoin(
+              products,
+              eq(orderProducts.productId, products.productId),
+            )
             .where(eq(orderProducts.orderId, order.orderId));
 
           for (const op of orderProductList) {
@@ -61,7 +64,7 @@ export async function GET() {
           profit: Math.round(profit * 100) / 100,
           profit_margin: Math.round(profitMargin * 10) / 10,
         };
-      })
+      }),
     );
 
     return NextResponse.json(invoicesWithTotals);
@@ -69,7 +72,7 @@ export async function GET() {
     console.error("Error fetching invoices:", error);
     return NextResponse.json(
       { error: "Failed to fetch invoices" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
@@ -97,7 +100,7 @@ export async function POST(request: Request) {
     console.error("Error creating invoice:", error);
     return NextResponse.json(
       { error: "Failed to create invoice" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }
