@@ -1,0 +1,112 @@
+{
+  "common": {
+    "appName": "TileTrack",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "actions": "Actions",
+    "back": "Back",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "invoices": "Invoices",
+    "products": "Products",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Tile Business Tracker",
+    "activeOrders": "Active Orders",
+    "totalRevenue": "Total Revenue",
+    "totalProfit": "Total Profit",
+    "avgProfitMargin": "Avg Profit Margin",
+    "recentInvoices": "Recent Invoices",
+    "newInvoice": "New Invoice"
+  },
+  "invoice": {
+    "title": "Invoice",
+    "invoiceNumber": "Invoice #",
+    "date": "Date",
+    "client": "Client",
+    "status": "Status",
+    "deliveryLocation": "Delivery Location",
+    "estimatedDelivery": "Estimated Delivery",
+    "actualDelivery": "Actual Delivery",
+    "fob": "FOB (Shipping Fee)",
+    "notDelivered": "Not yet delivered",
+    "information": "Invoice Information",
+    "ordersProducts": "Orders & Products",
+    "notes": "Notes",
+    "createNew": "Create New Invoice"
+  },
+  "order": {
+    "title": "Order",
+    "addProduct": "Add Product"
+  },
+  "product": {
+    "title": "Product",
+    "products": "Products",
+    "materialName": "Material Name",
+    "finishType": "Finish Type",
+    "supplier": "Supplier",
+    "dimensions": "Dimensions",
+    "unitType": "Unit Type",
+    "buyPrice": "Buy Price",
+    "sellPrice": "Sell Price",
+    "crates": "Crates",
+    "unitsPerCrate": "Units/Crate",
+    "piecesPerCrate": "Pieces/Crate",
+    "totalPieces": "Total Pieces",
+    "selectOrCreate": "Select or Create New",
+    "createNew": "Create New Product",
+    "quantityDetails": "Quantity Details",
+    "pricing": "Pricing",
+    "addToOrder": "Add to Order"
+  },
+  "calculation": {
+    "revenue": "Revenue",
+    "expense": "Expense",
+    "profit": "Profit",
+    "profitMargin": "Profit Margin",
+    "subtotal": "Subtotal",
+    "totalRevenue": "Total Revenue",
+    "totalExpense": "Total Expense",
+    "netProfit": "Net Profit",
+    "calculated": "Calculated",
+    "totalUnits": "Total Units"
+  },
+  "status": {
+    "scheduled": "Scheduled",
+    "inManufacturing": "Manufacturing",
+    "completed": "Completed",
+    "booked": "Booked",
+    "shipped": "Shipped",
+    "all": "All Status"
+  },
+  "units": {
+    "pieces": "pieces",
+    "sqm": "m²",
+    "pc": "pc"
+  },
+  "search": {
+    "placeholder": "Search by client or invoice number...",
+    "noResults": "No invoices found matching your filters"
+  },
+  "table": {
+    "clickToView": "Click any row to view details"
+  },
+  "confirmation": {
+    "removeProduct": "Are you sure you want to remove this product?"
+  },
+  "validation": {
+    "fillAllFields": "Please fill in all fields"
+  }
+}

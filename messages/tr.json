@@ -1,0 +1,112 @@
+{
+  "common": {
+    "appName": "TileTrack",
+    "loading": "Yükleniyor...",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "actions": "İşlemler",
+    "back": "Geri",
+    "close": "Kapat",
+    "confirm": "Onayla",
+    "yes": "Evet",
+    "no": "Hayır"
+  },
+  "nav": {
+    "dashboard": "Ana Sayfa",
+    "invoices": "Faturalar",
+    "products": "Ürünler",
+    "settings": "Ayarlar"
+  },
+  "dashboard": {
+    "title": "Fayans İşletme Takibi",
+    "activeOrders": "Aktif Siparişler",
+    "totalRevenue": "Toplam Gelir",
+    "totalProfit": "Toplam Kâr",
+    "avgProfitMargin": "Ort. Kâr Marjı",
+    "recentInvoices": "Son Faturalar",
+    "newInvoice": "Yeni Fatura"
+  },
+  "invoice": {
+    "title": "Fatura",
+    "invoiceNumber": "Fatura No",
+    "date": "Tarih",
+    "client": "Müşteri",
+    "status": "Durum",
+    "deliveryLocation": "Teslimat Yeri",
+    "estimatedDelivery": "Tahmini Teslimat",
+    "actualDelivery": "Gerçek Teslimat",
+    "fob": "FOB (Navlun)",
+    "notDelivered": "Henüz teslim edilmedi",
+    "information": "Fatura Bilgileri",
+    "ordersProducts": "Siparişler ve Ürünler",
+    "notes": "Notlar",
+    "createNew": "Yeni Fatura Oluştur"
+  },
+  "order": {
+    "title": "Sipariş",
+    "addProduct": "Ürün Ekle"
+  },
+  "product": {
+    "title": "Ürün",
+    "products": "Ürünler",
+    "materialName": "Malzeme Adı",
+    "finishType": "Yüzey Tipi",
+    "supplier": "Tedarikçi",
+    "dimensions": "Boyutlar",
+    "unitType": "Birim Tipi",
+    "buyPrice": "Alış Fiyatı",
+    "sellPrice": "Satış Fiyatı",
+    "crates": "Kasa",
+    "unitsPerCrate": "Birim/Kasa",
+    "piecesPerCrate": "Parça/Kasa",
+    "totalPieces": "Toplam Parça",
+    "selectOrCreate": "Seç veya Yeni Oluştur",
+    "createNew": "Yeni Ürün Oluştur",
+    "quantityDetails": "Miktar Detayları",
+    "pricing": "Fiyatlandırma",
+    "addToOrder": "Siparişe Ekle"
+  },
+  "calculation": {
+    "revenue": "Gelir",
+    "expense": "Gider",
+    "profit": "Kâr",
+    "profitMargin": "Kâr Marjı",
+    "subtotal": "Ara Toplam",
+    "totalRevenue": "Toplam Gelir",
+    "totalExpense": "Toplam Gider",
+    "netProfit": "Net Kâr",
+    "calculated": "Hesaplanan",
+    "totalUnits": "Toplam Birim"
+  },
+  "status": {
+    "scheduled": "Planlandı",
+    "inManufacturing": "Üretimde",
+    "completed": "Tamamlandı",
+    "booked": "Rezerve",
+    "shipped": "Gönderildi",
+    "all": "Tüm Durumlar"
+  },
+  "units": {
+    "pieces": "adet",
+    "sqm": "m²",
+    "pc": "ad"
+  },
+  "search": {
+    "placeholder": "Müşteri veya fatura numarasına göre ara...",
+    "noResults": "Filtrelerinize uygun fatura bulunamadı"
+  },
+  "table": {
+    "clickToView": "Detayları görmek için satıra tıklayın"
+  },
+  "confirmation": {
+    "removeProduct": "Bu ürünü kaldırmak istediğinizden emin misiniz?"
+  },
+  "validation": {
+    "fillAllFields": "Lütfen tüm alanları doldurun"
+  }
+}
